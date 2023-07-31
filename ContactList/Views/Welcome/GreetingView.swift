@@ -52,7 +52,7 @@ struct GreetingView: View {
                       .fill(Color.white.opacity(0.2))
                       .padding(8)
                       .frame(height:80)
-                      .overlay(Text("Get Started!")
+                      .overlay(Text("Get Started")
                         .font(.system(.title3, design: .rounded))
                         .fontWeight(.bold)
                         .foregroundColor(.white))
