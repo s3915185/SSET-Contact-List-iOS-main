@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "2024-aston-martin-db12-123-646e1d6217920.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "2024-aston-martin-db12-123-646e1d6217920 1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "2024-aston-martin-db12-123-646e1d6217920 2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

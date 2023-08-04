@@ -9,53 +9,65 @@ import SwiftUI
 
 struct GreetingView: View {
     @Binding var active: Bool
+    @Binding var colorScheme: Bool
+    
+    @State private var isOn: Bool = false
     
     var body: some View {
         ZStack{
-            Color("rmit-blue").ignoresSafeArea(.all, edges: .all)
             
+            Image(self.isOn ? "whitebg_image" : "blackbg_image")
+                .resizable()
+                .scaledToFill()
+//                .ignoresSafeArea(.all, edges: .all)
+                .padding([.top, .bottom], -60)
+                .animation(.linear(duration: 0.5))
+
             VStack(spacing: 20){
+                Toggle("", isOn: $isOn)
+                    .padding(.trailing, 70)
+                    .tint(.black)
+
                 Spacer()
                 VStack(spacing: 0) {
-                    Text("Welcome")
+                    Text("GERMANY")
                       .font(.system(size: 60))
                       .fontWeight(.heavy)
-                      .foregroundColor(.white)
+                      .foregroundColor(self.isOn ? .black : .white)
+                      .animation(.linear(duration: 0.5))
+                    
                     Text("""
-                    The Contact List is long,
-                    The Circle is small!
+                    LUXURY MODELS
+                    CARS&BRANDS
                     """)
                       .font(.title3)
                       .fontWeight(.light)
-                      .foregroundColor(.white)
+                      .foregroundColor(self.isOn ? .black : .white)
                       .multilineTextAlignment(.center)
-                      .padding(.horizontal, 10)
-                    
-                    
+                      .animation(.linear(duration: 0.5))
                 }
-                Spacer()
                 ZStack{
-                    CircleLayerView()
-                    Image("rmit-logo-white")
+                    Image("logo")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .frame(width: 300)
+                        .frame(width: 100)
+                        .cornerRadius(15)
                 }
                 
                 Spacer()
-
-
                 Button(action: {
                     active = false
+                    colorScheme = isOn ? true : false
                 }, label: {
                     Capsule()
-                      .fill(Color.white.opacity(0.2))
+                      .fill(self.isOn ? Color.black.opacity(0.2) : Color.white.opacity(0.2))
                       .padding(8)
                       .frame(height:80)
-                      .overlay(Text("Get Started")
+                      .overlay(Text("Forward")
                         .font(.system(.title3, design: .rounded))
                         .fontWeight(.bold)
-                        .foregroundColor(.white))
+                        .foregroundColor(self.isOn ? .black : .white))
+                      .animation(.linear(duration: 0.5))
                 })
             }
         }
@@ -64,6 +76,7 @@ struct GreetingView: View {
 
 struct GreetingView_Previews: PreviewProvider {
     static var previews: some View {
-        GreetingView(active: .constant(true))
+        GreetingView(active: .constant(true), colorScheme: .constant(false))
+            .animation(.linear(duration: 0.5))
     }
 }

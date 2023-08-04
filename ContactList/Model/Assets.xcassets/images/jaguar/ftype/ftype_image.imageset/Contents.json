@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "2021-jaguar-f-type-svr-rendering.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "2021-jaguar-f-type-svr-rendering 1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "2021-jaguar-f-type-svr-rendering 2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

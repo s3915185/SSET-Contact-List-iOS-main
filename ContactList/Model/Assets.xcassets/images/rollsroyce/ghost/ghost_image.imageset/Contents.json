@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "rolls-royce-ghost-in-champagne-rose100885605h-16848286640931497101971.jpg.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "rolls-royce-ghost-in-champagne-rose100885605h-16848286640931497101971.jpg 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "rolls-royce-ghost-in-champagne-rose100885605h-16848286640931497101971.jpg 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "DBXhp_Rendering-crop.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "DBXhp_Rendering-crop 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "DBXhp_Rendering-crop 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

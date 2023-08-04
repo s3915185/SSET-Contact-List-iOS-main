@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "1159328-white-background-wallpaper-iphone-1080x1920-xiaomi.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "1159328-white-background-wallpaper-iphone-1080x1920-xiaomi 1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "1159328-white-background-wallpaper-iphone-1080x1920-xiaomi 2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

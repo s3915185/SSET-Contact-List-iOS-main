@@ -9,13 +9,14 @@ import SwiftUI
 
 struct WelcomeView: View {
     @State var isWelcomeActive: Bool = true
-    
+    @State var colorScheme: Bool = false
+
     var body: some View {
         ZStack {
             if isWelcomeActive {
-                GreetingView(active: $isWelcomeActive)
+                GreetingView(active: $isWelcomeActive, colorScheme: $colorScheme)
             } else {
-                ContactList()
+                ContactList(colorScheme: $colorScheme)
             }
         }
     }

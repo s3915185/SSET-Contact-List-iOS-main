@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "am700_front_quarter_dark_alchemy_main1.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "am700_front_quarter_dark_alchemy_main1 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "am700_front_quarter_dark_alchemy_main1 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

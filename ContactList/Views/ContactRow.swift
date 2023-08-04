@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContactRow: View {
     var contact: Contact
+    @State private var isOn: Bool = false
     
     var body: some View {
         HStack {

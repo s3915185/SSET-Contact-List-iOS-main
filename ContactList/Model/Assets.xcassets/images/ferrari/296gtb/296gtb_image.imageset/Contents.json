@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "amalgam-ferrari-296-gtb-1-16444164436591918544624.jpg.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "amalgam-ferrari-296-gtb-1-16444164436591918544624.jpg 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "amalgam-ferrari-296-gtb-1-16444164436591918544624.jpg 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
