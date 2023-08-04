@@ -17,7 +17,16 @@ struct BrandCard: View {
         ScrollView {
             
                 VStack {
-                    Text("vc")
+                    MapView(coordinate: brand.locationCoordinate)
+                        .edgesIgnoringSafeArea(.top)
+                        .frame(height: 250)
+                    CircleImage(image: brand.image)
+                        .offset(y: -100)
+                        .padding(.bottom, -100)
+                    Text(brand.brandName)
+                        .font(.system(size: 40))
+                        .bold()
+                    .foregroundColor(.white)
                 }
             }
         }
