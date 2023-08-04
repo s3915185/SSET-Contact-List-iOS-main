@@ -11,7 +11,7 @@ import CoreLocation
 
 
 struct Brand: Identifiable, Codable{
-    var id: String
+    var id: Int
     var brandName: String
     var brandEmail: String
     var brandDescription: String
@@ -28,4 +28,5 @@ struct Brand: Identifiable, Codable{
         )
     }
 }
+
 

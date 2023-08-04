@@ -11,12 +11,12 @@ import CoreLocation
 
 
 struct Car: Identifiable, Codable{
-    var id: String
+    var id: Int
     var carName: String
     var carDescription: String
     var imageName: String
     var image: Image {
         Image(imageName)
     }
-    var carBrand: String
+    var carBrand: Int
 }

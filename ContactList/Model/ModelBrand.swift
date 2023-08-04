@@ -11,12 +11,12 @@ import CoreLocation
 var brands = decodeJsonFromBrandJsonFile(jsonFileName: "brands.json")
 
 // How to decode a json file into a struct
-func decodeJsonFromBrandJsonFile(jsonFileName: String) -> [Contact] {
+func decodeJsonFromBrandJsonFile(jsonFileName: String) -> [Brand] {
     if let file = Bundle.main.url(forResource: jsonFileName, withExtension: nil){
         if let data = try? Data(contentsOf: file) {
             do {
                 let decoder = JSONDecoder()
-                let decoded = try decoder.decode([Contact].self, from: data)
+                let decoded = try decoder.decode([Brand].self, from: data)
                 return decoded
             } catch let error {
                 fatalError("Failed to decode JSON: \(error)")
@@ -25,5 +25,5 @@ func decodeJsonFromBrandJsonFile(jsonFileName: String) -> [Contact] {
     } else {
         fatalError("Couldn't load \(jsonFileName) file")
     }
-    return [ ] as [Contact]
+    return [ ] as [Brand]
 }

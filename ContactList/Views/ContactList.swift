@@ -27,16 +27,16 @@ struct ContactList: View {
                     .tint(.black)
                     .animation(.linear(duration: 0.5))
                 NavigationView {
-                    
-                    List(contacts){
-                        contact in
+
+                    List(brands){
+                        brand in
                         NavigationLink{
-                            ContactCard(contact: contact)
+                            BrandCard(brand: brand)
                         } label: {
-                            ContactRow(contact: contact)
+                            BrandRow(brand: brand)
                         }.listRowBackground(Color.clear)
                         .navigationTitle("CAR BRANDS")
-                        
+
                     }.listStyle(.inset)
                 }
                 .padding(.leading, 65)

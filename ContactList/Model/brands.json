@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1,
+        "brandName": "Lamborghini",
+        "brandEmail": "+39 051 9597282",
+        "brandDescription": "Automobili Lamborghini S.p.A. is an Italian brand and manufacturer of luxury sports cars and SUVs based in Sant'Agata Bolognese and tractors Lamborghini Trattori in Pieve di Cento, Italy. The company is owned by the Volkswagen Group through its subsidiary Audi.",
+        "imageName": "lamborghini_logo",
+        "coordinates": {
+            "latitude": 44.672200,
+            "longitude": 11.118300
+        }
+    },
+    
+    {
+        "id": 2,
+        "brandName": "Porsche",
+        "brandEmail": "1-800-PORSCHE",
+        "brandDescription": "Porsche AG (Porsche) a subsidiary of Volkswagen AG, is an automobile manufacturer which majorly focuses on premium auto segments. It offers passenger cars, vehicle parts and accessories, and engines. The company sells its products under several models including Cayman, Panamera, Macan and Cayenne.",
+        "imageName": "porsche_logo",
+        "coordinates": {
+            "latitude": 48.775800,
+            "longitude": 9.182900
+        }
+    },
+    
+    {
+        "id": 3,
+        "brandName": "Bentley",
+        "brandEmail": "+1 800 777 6923",
+        "brandDescription": "Bentley Motors is the world's leading manufacturer of luxury cars. Based in the UK at Pyms Lane, Crewe, Cheshire since 1938, the luxury marque employs more than 4,000 colleagues who design, engineer, handcraft and market bespoke automobiles.",
+        "imageName": "bentley_logo",
+        "coordinates": {
+            "latitude": 53.10638693994209,
+            "longitude": -2.47594210608324
+        }
+    },
+    
+    {
+        "id": 4,
+        "brandName": "Ferrari",
+        "brandEmail": "museo@ferrari.com",
+        "brandDescription": "Ferrari S.p.A. (/fəˈrɑːri/; Italian: [ferˈraːri]) is an Italian luxury sports car manufacturer based in Maranello, Italy. Founded in 1939 by Enzo Ferrari (1898–1988), the company adopted its current name in 1945 and began producing its line of cars in 1947. Ferrari became a public company in 1960, and from 1969 to 2014 it was a subsidiary of Fiat S.p.A. It was spun off from Fiat's successor entity, Fiat Chrysler Automobiles, in 2016. The company currently offers a large model range which includes several supercars, grand tourers, and one SUV. Many early Ferraris, dating to the 1950s and 1960s, count among the most expensive cars ever sold at auction. Owing to a combination of its cars, enthusiast culture, and successful licensing deals, in 2019 Ferrari was labelled the world's strongest brand by the financial consultency Brand Finance.[6]",
+        "imageName": "ferrari_logo",
+        "coordinates": {
+            "latitude": 44.529751107085545,
+            "longitude": 10.861501811624882
+        }
+    },
+    
+    {
+        "id": 5,
+        "brandName": "Rolls-Royce",
+        "brandEmail": "01332 242424",
+        "brandDescription": " Rolls-Royce PLC, major British manufacturer of aircraft engines, marine propulsion systems, and power-generation systems. Noted for much of the 20th century as a maker of luxury automobiles, the company was separated from its car-making operations and nationalized following bankruptcy in 1971.",
+        "imageName": "rollsroyce_logo",
+        "coordinates": {
+            "latitude":51.534917004263754,
+            "longitude":-0.12180974580761533
+        }
+    },
+    
+    {
+        "id": 6,
+        "brandName": "Aston Martin",
+        "brandEmail": "(866) 278-6661",
+        "brandDescription": "Aston Martin is a modern, exclusive sports car brand with a unique heritage instantly recognised around the world. Founded in 1913 by Lionel Martin and Robert Bamford, Aston Martin is acknowledged as an iconic global brand synonymous with style, luxury, performance and exclusivity.",
+        "imageName": "astonmartin_logo",
+        "coordinates": {
+            "latitude": 52.183534766429275,
+            "longitude": -1.4686674720399289
+        }
+    },
+    
+    {
+        "id": 7,
+        "brandName": "Jaguar",
+        "brandEmail": "+44 (0) 192 664 1111",
+        "brandDescription": "Jaguar (UK: /ˈdʒæɡjuər/, US: /ˈdʒæɡwɑːr/) is the luxury vehicle brand of Jaguar Land Rover,[1][3] a British multinational car manufacturer with its headquarters in Whitley, Coventry, England. Jaguar Cars was the company that was responsible for the production of Jaguar cars until its operations were fully merged with those of Land Rover to form Jaguar Land Rover on 1 January 2013.",
+        "imageName": "jaguar_logo",
+        "coordinates": {
+            "latitude": 52.40064234942799,
+            "longitude":-1.5606739692337932
+        }
+    },
+    
+    {
+        "id": 8,
+        "brandName": "Bugatti",
+        "brandEmail": "+49 211 737 774 72",
+        "brandDescription": "Manufacturer of sports cars based in Molsheim, France. The company designs, manufactures and distributes sports cars, meeting customers demands in terms of luxury, comfort, everyday drivability, and durability.",
+        "imageName": "bugatti_logo",
+        "coordinates": {
+            "latitude": 48.525551712761185,
+            "longitude": 7.500154600119476
+        }
+    }
+]
