@@ -27,6 +27,7 @@
 		44C9936A2A7D2419003BEFAE /* BrandRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C993692A7D2419003BEFAE /* BrandRow.swift */; };
 		44C9936B2A7D3464003BEFAE /* cars.json in Resources */ = {isa = PBXBuildFile; fileRef = 44C9935D2A7D0F59003BEFAE /* cars.json */; };
 		44C9936C2A7D3467003BEFAE /* brands.json in Resources */ = {isa = PBXBuildFile; fileRef = 44C9935E2A7D0F87003BEFAE /* brands.json */; };
+		44FBE5EC2A7E3B25003EE9A7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44C3C31C2A7E02FA0078C49C /* Info.plist */; };
 		6B02726E288E8017007A3090 /* contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B02726D288E8017007A3090 /* contacts.json */; };
 		6B5894B5287F144600565957 /* ContactListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5894B4287F144600565957 /* ContactListApp.swift */; };
 		6B5894B7287F144600565957 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5894B6287F144600565957 /* ContentView.swift */; };
@@ -275,6 +276,7 @@
 				44C9936B2A7D3464003BEFAE /* cars.json in Resources */,
 				6B02726E288E8017007A3090 /* contacts.json in Resources */,
 				44C3C3372A7E0EAC0078C49C /* Cocogoose Condensed trial.ttf in Resources */,
+				44FBE5EC2A7E3B25003EE9A7 /* Info.plist in Resources */,
 				44C3C3352A7E0E170078C49C /* Jaguar-Bold.ttf in Resources */,
 				44C3C32F2A7E0B930078C49C /* FerroRosso-0v5X.ttf in Resources */,
 				6B5894B9287F144800565957 /* Assets.xcassets in Resources */,
