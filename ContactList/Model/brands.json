@@ -8,7 +8,8 @@
         "coordinates": {
             "latitude": 44.672200,
             "longitude": 11.118300
-        }
+        },
+        "font": "La Macchina"
     },
     
     {
@@ -20,7 +21,8 @@
         "coordinates": {
             "latitude": 48.775800,
             "longitude": 9.182900
-        }
+        },
+        "font": "SK Porsche"
     },
     
     {
@@ -32,7 +34,8 @@
         "coordinates": {
             "latitude": 53.10638693994209,
             "longitude": -2.47594210608324
-        }
+        },
+        "font": "Media-Gothic"
     },
     
     {
@@ -44,19 +47,21 @@
         "coordinates": {
             "latitude": 44.529751107085545,
             "longitude": 10.861501811624882
-        }
+        },
+        "font": "FerroRosso"
     },
     
     {
         "id": 5,
         "brandName": "Rolls-Royce",
         "brandEmail": "01332 242424",
-        "brandDescription": " Rolls-Royce PLC, major British manufacturer of aircraft engines, marine propulsion systems, and power-generation systems. Noted for much of the 20th century as a maker of luxury automobiles, the company was separated from its car-making operations and nationalized following bankruptcy in 1971.",
+        "brandDescription": "Rolls-Royce PLC, major British manufacturer of aircraft engines, marine propulsion systems, and power-generation systems. Noted for much of the 20th century as a maker of luxury automobiles, the company was separated from its car-making operations and nationalized following bankruptcy in 1971.",
         "imageName": "rollsroyce_logo",
         "coordinates": {
             "latitude":51.534917004263754,
             "longitude":-0.12180974580761533
-        }
+        },
+        "font": "SouvenirGotURWTOTReg W03 Rg"
     },
     
     {
@@ -68,7 +73,8 @@
         "coordinates": {
             "latitude": 52.183534766429275,
             "longitude": -1.4686674720399289
-        }
+        },
+        "font": "ModifiedbyKEMAL"
     },
     
     {
@@ -80,7 +86,8 @@
         "coordinates": {
             "latitude": 52.40064234942799,
             "longitude":-1.5606739692337932
-        }
+        },
+        "font": "Jaguar-Bold"
     },
     
     {
@@ -92,6 +99,7 @@
         "coordinates": {
             "latitude": 48.525551712761185,
             "longitude": 7.500154600119476
-        }
+        },
+        "font": "CocogooseCondensedTrial-Semilig"
     }
 ]

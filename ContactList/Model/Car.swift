@@ -16,7 +16,11 @@ struct Car: Identifiable, Codable{
     var carDescription: String
     var imageName: String
     var image: Image {
-        Image(imageName)
+        Image(imageName+"_image")
     }
+    var back: Image {
+        Image(imageName+"_back")
+    }
+    
     var carBrand: Int
 }

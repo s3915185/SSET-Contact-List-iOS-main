@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		44B5F7622A77C834008BB162 /* carLists.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 44B5F7612A77C834008BB162 /* carLists.rtf */; };
+		44C3C32D2A7E0AD10078C49C /* Porsche Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44C3C32C2A7E0AD10078C49C /* Porsche Regular.ttf */; };
+		44C3C32F2A7E0B930078C49C /* FerroRosso-0v5X.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44C3C32E2A7E0B930078C49C /* FerroRosso-0v5X.ttf */; };
+		44C3C3312A7E0C4B0078C49C /* SouvenirGotURWTOTReg W03 Rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44C3C3302A7E0C4B0078C49C /* SouvenirGotURWTOTReg W03 Rg.ttf */; };
+		44C3C3332A7E0D4F0078C49C /* ModifiedbyKEMAL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44C3C3322A7E0D4F0078C49C /* ModifiedbyKEMAL.ttf */; };
+		44C3C3352A7E0E170078C49C /* Jaguar-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44C3C3342A7E0E170078C49C /* Jaguar-Bold.ttf */; };
+		44C3C3372A7E0EAC0078C49C /* Cocogoose Condensed trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44C3C3362A7E0EAC0078C49C /* Cocogoose Condensed trial.ttf */; };
+		44C3C3392A7E1B7F0078C49C /* Fenix-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44C3C3382A7E1B7F0078C49C /* Fenix-Regular.ttf */; };
 		44C993562A7D0D7D003BEFAE /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C993552A7D0D7D003BEFAE /* Brand.swift */; };
 		44C993582A7D0E8C003BEFAE /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C993572A7D0E8C003BEFAE /* Car.swift */; };
 		44C9935A2A7D0F05003BEFAE /* ModelBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C993592A7D0F05003BEFAE /* ModelBrand.swift */; };
@@ -30,16 +37,24 @@
 		6B5894CC287F176E00565957 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5894CB287F176E00565957 /* MapView.swift */; };
 		6B5894CE287F1A4400565957 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5894CD287F1A4400565957 /* Contact.swift */; };
 		6B5894D0287F1B4000565957 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5894CF287F1B4000565957 /* ModelData.swift */; };
-		6B5894D2287F1C3800565957 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5894D1287F1C3800565957 /* ContactList.swift */; };
 		6B5894D4287F1C5C00565957 /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5894D3287F1C5C00565957 /* ContactRow.swift */; };
 		6B5894D6287F202800565957 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5894D5287F202700565957 /* CircleImage.swift */; };
 		6B987DE8288F9DD400454E96 /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B987DE7288F9DD400454E96 /* GreetingView.swift */; };
 		6B998150288EC671001B1AC5 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B99814F288EC671001B1AC5 /* WelcomeView.swift */; };
-		6B998152288ECA20001B1AC5 /* CircleLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B998151288ECA20001B1AC5 /* CircleLayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		44B5F7612A77C834008BB162 /* carLists.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = carLists.rtf; sourceTree = "<group>"; };
+		44C3C31C2A7E02FA0078C49C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		44C3C3252A7E06AE0078C49C /* Media-Gothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Media-Gothic.ttf"; sourceTree = "<group>"; };
+		44C3C3262A7E07220078C49C /* La Macchina Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "La Macchina Regular.ttf"; sourceTree = "<group>"; };
+		44C3C32C2A7E0AD10078C49C /* Porsche Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Porsche Regular.ttf"; sourceTree = "<group>"; };
+		44C3C32E2A7E0B930078C49C /* FerroRosso-0v5X.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FerroRosso-0v5X.ttf"; sourceTree = "<group>"; };
+		44C3C3302A7E0C4B0078C49C /* SouvenirGotURWTOTReg W03 Rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SouvenirGotURWTOTReg W03 Rg.ttf"; sourceTree = "<group>"; };
+		44C3C3322A7E0D4F0078C49C /* ModifiedbyKEMAL.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ModifiedbyKEMAL.ttf; sourceTree = "<group>"; };
+		44C3C3342A7E0E170078C49C /* Jaguar-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jaguar-Bold.ttf"; sourceTree = "<group>"; };
+		44C3C3362A7E0EAC0078C49C /* Cocogoose Condensed trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cocogoose Condensed trial.ttf"; sourceTree = "<group>"; };
+		44C3C3382A7E1B7F0078C49C /* Fenix-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fenix-Regular.ttf"; sourceTree = "<group>"; };
 		44C993552A7D0D7D003BEFAE /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
 		44C993572A7D0E8C003BEFAE /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		44C993592A7D0F05003BEFAE /* ModelBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBrand.swift; sourceTree = "<group>"; };
@@ -63,12 +78,10 @@
 		6B5894CB287F176E00565957 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		6B5894CD287F1A4400565957 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		6B5894CF287F1B4000565957 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
-		6B5894D1287F1C3800565957 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
 		6B5894D3287F1C5C00565957 /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
 		6B5894D5287F202700565957 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		6B987DE7288F9DD400454E96 /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
 		6B99814F288EC671001B1AC5 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
-		6B998151288ECA20001B1AC5 /* CircleLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +95,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44C3C3172A7DFE200078C49C /* Brand */ = {
+			isa = PBXGroup;
+			children = (
+				44C993692A7D2419003BEFAE /* BrandRow.swift */,
+				44C993672A7D240D003BEFAE /* BrandList.swift */,
+				44C993652A7D2404003BEFAE /* BrandCard.swift */,
+			);
+			path = Brand;
+			sourceTree = "<group>";
+		};
+		44C3C3182A7DFE380078C49C /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				44C993632A7D23FB003BEFAE /* CarRow.swift */,
+				44C993612A7D23F1003BEFAE /* CarList.swift */,
+				44C9935F2A7D23E1003BEFAE /* CarCard.swift */,
+			);
+			path = Car;
+			sourceTree = "<group>";
+		};
+		44C3C3192A7E02C70078C49C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				44C3C3382A7E1B7F0078C49C /* Fenix-Regular.ttf */,
+				44C3C3362A7E0EAC0078C49C /* Cocogoose Condensed trial.ttf */,
+				44C3C3342A7E0E170078C49C /* Jaguar-Bold.ttf */,
+				44C3C3322A7E0D4F0078C49C /* ModifiedbyKEMAL.ttf */,
+				44C3C3302A7E0C4B0078C49C /* SouvenirGotURWTOTReg W03 Rg.ttf */,
+				44C3C32E2A7E0B930078C49C /* FerroRosso-0v5X.ttf */,
+				44C3C32C2A7E0AD10078C49C /* Porsche Regular.ttf */,
+				44C3C3262A7E07220078C49C /* La Macchina Regular.ttf */,
+				44C3C3252A7E06AE0078C49C /* Media-Gothic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		6B155E852880631A00CA6E5C /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,18 +152,13 @@
 		6B155E862880633E00CA6E5C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				44C993692A7D2419003BEFAE /* BrandRow.swift */,
-				44C993672A7D240D003BEFAE /* BrandList.swift */,
-				44C993652A7D2404003BEFAE /* BrandCard.swift */,
-				44C993632A7D23FB003BEFAE /* CarRow.swift */,
-				44C993612A7D23F1003BEFAE /* CarList.swift */,
-				44C9935F2A7D23E1003BEFAE /* CarCard.swift */,
+				44C3C3182A7DFE380078C49C /* Car */,
+				44C3C3172A7DFE200078C49C /* Brand */,
 				6B5894B6287F144600565957 /* ContentView.swift */,
 				6B5894D5287F202700565957 /* CircleImage.swift */,
 				6B5894CB287F176E00565957 /* MapView.swift */,
 				6B5894C6287F153000565957 /* ContactCard.swift */,
 				6B5894C4287F14DF00565957 /* InfoView.swift */,
-				6B5894D1287F1C3800565957 /* ContactList.swift */,
 				6B5894D3287F1C5C00565957 /* ContactRow.swift */,
 				6B998154288ECA37001B1AC5 /* Welcome */,
 			);
@@ -140,6 +184,8 @@
 		6B5894B3287F144600565957 /* ContactList */ = {
 			isa = PBXGroup;
 			children = (
+				44C3C31C2A7E02FA0078C49C /* Info.plist */,
+				44C3C3192A7E02C70078C49C /* Fonts */,
 				6B5894B4287F144600565957 /* ContactListApp.swift */,
 				6B155E862880633E00CA6E5C /* Views */,
 				6B155E852880631A00CA6E5C /* Model */,
@@ -161,7 +207,6 @@
 			children = (
 				6B99814F288EC671001B1AC5 /* WelcomeView.swift */,
 				6B987DE7288F9DD400454E96 /* GreetingView.swift */,
-				6B998151288ECA20001B1AC5 /* CircleLayerView.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -224,12 +269,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44C3C3312A7E0C4B0078C49C /* SouvenirGotURWTOTReg W03 Rg.ttf in Resources */,
+				44C3C3332A7E0D4F0078C49C /* ModifiedbyKEMAL.ttf in Resources */,
 				6B5894BC287F144800565957 /* Preview Assets.xcassets in Resources */,
 				44C9936B2A7D3464003BEFAE /* cars.json in Resources */,
 				6B02726E288E8017007A3090 /* contacts.json in Resources */,
+				44C3C3372A7E0EAC0078C49C /* Cocogoose Condensed trial.ttf in Resources */,
+				44C3C3352A7E0E170078C49C /* Jaguar-Bold.ttf in Resources */,
+				44C3C32F2A7E0B930078C49C /* FerroRosso-0v5X.ttf in Resources */,
 				6B5894B9287F144800565957 /* Assets.xcassets in Resources */,
 				44B5F7622A77C834008BB162 /* carLists.rtf in Resources */,
 				44C9936C2A7D3467003BEFAE /* brands.json in Resources */,
+				44C3C32D2A7E0AD10078C49C /* Porsche Regular.ttf in Resources */,
+				44C3C3392A7E1B7F0078C49C /* Fenix-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,11 +304,9 @@
 				6B5894B7287F144600565957 /* ContentView.swift in Sources */,
 				6B5894D0287F1B4000565957 /* ModelData.swift in Sources */,
 				44C993682A7D240D003BEFAE /* BrandList.swift in Sources */,
-				6B998152288ECA20001B1AC5 /* CircleLayerView.swift in Sources */,
 				6B998150288EC671001B1AC5 /* WelcomeView.swift in Sources */,
 				44C993622A7D23F1003BEFAE /* CarList.swift in Sources */,
 				44C9935C2A7D0F0F003BEFAE /* ModelCar.swift in Sources */,
-				6B5894D2287F1C3800565957 /* ContactList.swift in Sources */,
 				6B5894D6287F202800565957 /* CircleImage.swift in Sources */,
 				44C993562A7D0D7D003BEFAE /* Brand.swift in Sources */,
 				6B5894B5287F144600565957 /* ContactListApp.swift in Sources */,
@@ -394,6 +444,7 @@
 				DEVELOPMENT_TEAM = 7GL9H6DMF2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ContactList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -423,6 +474,7 @@
 				DEVELOPMENT_TEAM = 7GL9H6DMF2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ContactList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

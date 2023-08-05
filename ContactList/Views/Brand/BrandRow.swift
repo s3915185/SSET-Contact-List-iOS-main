@@ -17,14 +17,16 @@ struct BrandRow: View {
                 .resizable()
                 .frame(width: 50, height: 50)
             Text(brand.brandName)
+                .font(Font.custom(brand.font, size: 20))
         }
     }
+    
 }
 
 struct BrandRow_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            BrandRow(brand: brands[0]).previewLayout(.fixed(width: 300, height: 70))
+            BrandRow(brand: brands[7]).previewLayout(.fixed(width: 300, height: 70))
             BrandRow(brand: brands[1]).previewLayout(.fixed(width: 300, height: 70))
         }
     }

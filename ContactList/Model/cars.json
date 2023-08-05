@@ -3,266 +3,266 @@
         "id": 1,
         "carName": "Revuelto",
         "carDescription": "Just before the 60th anniversary of the marque, Lamborghini unveiled Revuelto, the first HPEV (High Performance Electrified Vehicle) hybrid super sports car. With the Revuelto, Lamborghini has established a new benchmark in performance, on-board technology, and driving pleasure. The ultimate thrill provided by the Revuelto is reached thanks to a powertrain that delivers 1015 CV total, combining the power of a brand-new 12-cylinder internal combustion engine with three high-density electric motors and a groundbreaking transversal dual clutch e-gearbox. The power of hybridization is harnessed to take performance and driving emotions to an unprecedented level.",
-        "imageName": "revuelto_image",
+        "imageName": "revuelto",
         "carBrand": 1
     },
     {
         "id": 2,
         "carName": "Huracan Tecnica",
         "carDescription": "The latest member of the Huracán range provides the purest Lamborghini driving experience combined with the freedom of everyday use: a bridge between past and future, lifestyle and performance, road and track. Huracán Tecnica brings forth a pilot’s attitude in every driver, delivering the most rewarding performance and the ultimate, fun-to-drive experience — simultaneously. Unleash the unique character of the most versatile Huracán.",
-        "imageName": "huracantecnica_image",
+        "imageName": "huracantecnica",
         "carBrand": 1
     },
     {
         "id": 3,
         "carName": "Urus S",
         "carDescription": "The Urus embodies a visionary concept through the realization of a Super Sport Utility Vehicle born from pure Lamborghini DNA. In the Lamborghini Urus S, performance, design and exclusivity are evolved, revealing even greater strength and a heightened perception of luxury. Urus S is the most accomplished super SUV, one that combines maximum capability and comfort on any terrain and road condition. Get ready to experience an elevated luxury lifestyle in the newest Lamborghini SSUV.",
-        "imageName": "uruss_image",
+        "imageName": "uruss",
         "carBrand": 1
     },
     {
         "id": 4,
         "carName": "Countach LPI 800 - 4",
         "carDescription": "Fifty years since its unveiling at the Geneva Motor Show, the legendary Lamborghini Countach is making headlines again with a limited-series hybrid supercar celebrating the visionary design that revolutionized modern sports cars forever and laid the foundations of the Lamborghini legacy. This is the new Countach LPI 800-4. Inspired by the past, made for the future.",
-        "imageName": "countachlpi800_image",
+        "imageName": "countachlpi800",
         "carBrand": 1
     },
     {
         "id": 5,
         "carName": "Asterion",
         "carDescription": "The Asterion debuted at the Paris Motor Show in 2014, and its silent entrance immediately drew attention. The vehicle has four different motors: the longitudinal 5.2 liter 610 CV V10 engine of the Huracán, alongside three electric motors powered by lithium-ion batteries. The two motors installed at the front provide 300 CV directly to the front wheels, while the third acts as a generator and is installed on the dual-clutch gearbox. In the combined cycle, the Asterion adds the power from these motors to that of the internal combustion engine, providing the vehicle with an incredible 910 CV permanent all-wheel drive! The lithium-ion batteries, on the other hand, are located below the center console for greater safety in the event of an accident, with the benefit of lowering the center of gravity. ",
-        "imageName": "asterion_image",
+        "imageName": "asterion",
         "carBrand": 1
     },
     {
         "id": 6,
         "carName": "718 Cayman",
         "carDescription": "The 718 models were made for the sport of it. They are mid-engined roadsters that unite the sporting spirit of the legendary Porsche 718 with the sports car of tomorrow – and transfer it to the roads of today’s world. With one goal: to take the everyday out of every day.",
-        "imageName": "718cayman_image",
+        "imageName": "718cayman",
         "carBrand": 2
     },
     {
         "id": 7,
         "carName": "911 Targa",
         "carDescription": "Fewer kilograms equals more agility and contact with the road is more important than ever. The 911 Carrera T is a commitment to purism. A conscious release for increased driving pleasure. The shape of the 911 Carrera is unmistakable because of its iconic flyline and elegant roof lines. These have characterised Porsche since 1963, as have sports cars with astonishing performance.",
-        "imageName": "911targa_image",
+        "imageName": "911targa",
         "carBrand":2
     },
     {
         "id": 8,
         "carName": "Taycan",
         "carDescription": "Jump in, buckle up and get your pulse racing: the new Taycan GTS embodies pure Porsche E-Performance. 440kW (598PS) of overboost power with Launch Control, a GTS-specific drivetrain tune for increased agility and the GTS specific Porsche Electric Sport Sound. Everything you need to make every drive an event. SportDesign further enhances the aggressive, athletic look of the Taycan GTS. With additional carbon fiber design elements and bold inlays and skirts on the body, the Porsche sporty DNA is felt at every glance. The LED-Matrix Design Headlights in black including Porsche Dynamic Light System Plus (PDLS Plus) leave no doubt about their GTS DNA. With daytime running light element trims in Satin Black and 3D track graphics, they also incorporate active turning lights (Porsche Dynamic Lighting System) to guide your adventures.",
-        "imageName": "taycan_image",
+        "imageName": "taycan",
         "carBrand":2
     },
     {
         "id": 9,
         "carName": "Panamera",
         "carDescription": "Can a vision be logical? Is it even allowed to be? Probably not. We believe that the more visionary an idea at the start, the more exciting it is at the end. Then it's worth fighting for. That was the case with the Panamera. A sports car for four? With impressive performance and great comfort? With the dynamism typical of Porsche and simultaneously more efficient? Many said it was impossible. Others called it brave. Whether Panamera, Panamera Executive or Panamera Sport Turismo – the silhouette and proportions are unmistakably Porsche. Athletic, streamlined, with clear contours and powerful muscles. The long wheelbase, shorter overhang at the front and longer overhang at the rear already lend visual dynamism. The prominent sculpting of the side profile creates the customary Porsche waistline and sense of lightness.",
-        "imageName": "panamera_image",
+        "imageName": "panamera",
         "carBrand":2
     },
     {
         "id": 10,
         "carName": "Macan",
         "carDescription": "Stand out where others fade into the masses: the new Macan T. Young, dynamic and urban, with extensive standard equipment, model-specific design features - and, of course, typical Porsche performance. Five doors, five seats, yet incomparable, unmistakable and unstoppable. In its latest generation, the Macan is and remains the sports car of compact SUVs. Instantly, the Porsche DNA is recognizable from the sloping roof line: the ”flyline” lends the Macan its characteristic sports car contours.",
-        "imageName": "macan_image",
+        "imageName": "macan",
         "carBrand":2
     },
     {
         "id": 11,
         "carName": "Cayenne",
         "carDescription": "Over 20 years ago we asked ourselves if a sports car could celebrate more than the individual. The Cayenne provided the answer. And it continues to perfect it to this day. For people who want to tread their own path. To the office today, off-road or on the racetrack tomorrow – the Cayenne offers driving pleasure on every terrain, paired with the design typical of a Porsche.",
-        "imageName": "cayenne_image",
+        "imageName": "cayenne",
         "carBrand": 2
     },
     {
         "id": 12,
         "carName": "Bentayga EWB",
         "carDescription": "The New Bentayga EWB* offers an interior environment unlike any other SUV. Far more than just a luxury car, this extended wheelbase SUV is a showcase of advanced, wellbeing-enhancing technology. Every interaction with the cabin is enhanced, from seats that can proactively monitor and improve the comfort of their occupants to stunning lighting that combines the best of Bentley’s craftsmanship and innovation. There is more to the New Bentayga EWB, however, than a sublime passenger experience. Drivers can expect the effortless power that typifies every Bentley, underpinned by the latest chassis technology and digital connectivity.",
-        "imageName": "bentaygaewb_image",
+        "imageName": "bentaygaewb",
         "carBrand": 3
     },
     {
         "id": 13,
         "carName": "Flying Spur S",
         "carDescription":  "The Flying Spur S takes the unmistakable presence of the Flying Spur and imbues it with a darker edge. Black exterior detailing replaces chrome, from the badges to the wheels, while an optional exterior body kit can inject even more racing flair. But its looks are only the beginning. Available with a choice of two powerful Bentley engine options – 4.0 litre V8 petrol or 2.9 litre V6 hybrid – it features a thrilling Sport mode, for a sensational driving experience. Like every car in this range, the Flying Spur S is an exceptionally spacious and luxurious four-door sedan. Yet it is also a car designed to stand out from the crowd.",
-        "imageName": "flyingspurs_image",
+        "imageName": "flyingspurs",
         "carBrand": 3
     },
     {
         "id": 14,
         "carName": "Continental GT S",
         "carDescription": "The Continental GT S combines bold sports styling with an agile drive, resulting in a luxury grand tourer with a thrilling edge. Instantly recognisable, thanks to its dark exterior detailing, this is a leaner, meaner take on the Continental GT. The story continues beneath the bonnet, where its twin-turbocharged V8 engine lies in wait. When you’re ready to head out, four driving modes let you explore every aspect of your car’s unique character, from relaxed city cruising to the excitement of the open road.",
-        "imageName": "continentalgts_image",
+        "imageName": "continentalgts",
         "carBrand": 3
     },
     {
         "id": 15,
         "carName": "Continental GT Mulliner",
         "carDescription": "The Continental GT Mulliner is the most exquisitely crafted grand tourer on the road. With a wealth of handcrafted details, it is instantly recognisable as a car fit to bear the name of the world’s most renowned automotive coachbuilders. Yet it is also a Bentley – and that means Bentley performance. Advanced engine technology delivers effortless acceleration and incredible top speeds for such a comfortable, luxurious car. Computer-controlled chassis systems, meanwhile, make dynamic driving safer, easier and more thrilling. A true luxury flagship, the Continental GT Mulliner is everything a grand tourer should be – and more.",
-        "imageName": "continentalgtmulliner_image",
+        "imageName": "continentalgtmulliner",
         "carBrand": 3
     },
     {
         "id": 16,
         "carName": "Continental GT Speed",
         "carDescription": "Meet the ultimate sports-focused grand tourer. The moment you put your foot down for the first time, you can expect a surge of what feels like limitless acceleration – a relentless wave of power that can take you all the way up to 208 mph (335 km/h). Style matters just as much as substance, however. Which is why the Bentley Continental GT Speed features a unique aesthetic – a darker, more purposeful edge, based on the judicious use of lightweight, technical materials. An unmatched balance of luxury and fearsome performance, this is a car to excite you in more ways than one.",
-        "imageName": "continentalgtspeed_image",
+        "imageName": "continentalgtspeed",
         "carBrand": 3
     },
     {
         "id": 17,
         "carName": "Purosangue",
         "carDescription": "The Ferrari Purosangue is the first ever four-door, four-seater car in Ferrari’s history, but models with two rear seats have played a significant role in the company’s strategy since the very beginning. Now, in the culmination of 75 years of leading-edge research, Ferrari has created a unique car and the encapsulation of the Prancing Horse’s DNA, where performance, driving pleasure and comfort coexist in perfect harmony. And that’s why this new model was called Ferrari Purosangue – Italian for thoroughbred.",
-        "imageName": "purosangue_image",
+        "imageName": "purosangue",
         "carBrand":4
     },
     {
         "id": 18,
         "carName": "812 GTS",
         "carDescription": "The Ferrari 812 GTS is everything a Ferrari should be. It’s painfully gorgeous and upholstered with the finest Italian leather, but those details are just a warmup for the naturally aspirated, 789-hp V-12 engine. Comically fast, the front-mounted V-12 sings the maker’s siren song as conducted by the driver’s right foot whenever the mood strikes. If that sounds a bit dramatic, it is, but the 812’s purity of purpose and design are that inspiring. Part of that charm is how civil it can be for nights on the town even as neck-straining acceleration remains just an accelerator stab away. While Ferrari isn’t fond of us strapping our test gear to its products, we were able to clock a 2.7-second 60-mph run back in 2018 in the GTS’s coupe version, then called the Superfast. It hit 100 mph in 5.7 seconds and destroyed the quarter-mile in 10.4 seconds at 138 mph. Superfast indeed. That same 6.5-liter V-12 is found under the hood of the 2024 812 GTS convertible—the only body style available for this model year. Any doubts regarding the 812’s supercar bandwidth were quelled with our drive of the 2021 Ferrari 812 GTS, where we came away deeming it “two cars in one.” Buyers fortunate enough to land a 2024 812 GTS are also joining an elite club, as the 812 will very likely be the last naturally aspirated V-12 Ferrari sports car without hybrid assist. As if the 812 needed anything more to make it special.",
-        "imageName": "812gts_image",
+        "imageName": "812gts",
         "carBrand":4
     },
     {
         "id": 19,
         "carName": "296 GTB",
         "carDescription": "The 296 GTB, an evolution of Ferrari’s mid-rear-engined two-seater sports berlinetta concept, represents a revolution for the Maranello-based company as it introduces the new 120° V6 engine coupled with a plug-in (PHEV) electric motor capable of delivering up to 830 cv. The car thus defines the idea of driving fun to provide pure excitement not only when pursuing maximum performance but also in everyday driving.",
-        "imageName": "296gtb_image",
+        "imageName": "296gtb",
         "carBrand":4
     },
     {
         "id": 20,
         "carName": "296 GTS",
         "carDescription": "Ah. You’re looking for logic in Ferrari’s naming strategy. Good luck with that. Back in the day, a GTS was effectively a ‘targa’, ie: it had a removable panel rather than a fully folding roof, as debuted on 1977’s 308 GTS (you remember the opening credits of Magnum PI, right?) On the Nineties F355, you could have a GTB, a GTS or a Spider. That glorious machine was replaced by the 360 Modena, whose Spider version had a canvas soft-top and slightly awkward styling, as did the follow-up F430 (it was prettier, though). Since 2011’s 458 Italia Spider, open Ferraris have had a retractable aluminium roof, ingeniously packaged conduits for high-speed hedonism without compromising on structural integrity. That’s exactly the deal with the 296 GTS, the first road-going Ferrari, erm, Spider to use a six-cylinder engine. If you discount the Dino GTS, which isn’t technically a Ferrari. Or in fact a Spider, because it only had a detachable roof panel.",
-        "imageName": "296gts_image",
+        "imageName": "296gts",
         "carBrand":4
     },
     {
         "id": 21,
         "carName": "SF90 Spider",
         "carDescription": "The SF90 Spider has plug-in hybrid architecture in which the internal combustion engine is integrated with two electric motors at the front, which comprise the RAC-e (Cornering Angle Regulator, Electric) system, and one at the rear derived from and named after a Prancing Horse Formula 1 innovation, the MGUK (Motor Generator Unit, Kinetic). The synergy between the internal combustion engine and the electric motors unleashes a maximum of 1,000 cv and puts the SF90 Spider not only at the very top of its category but also the Maranello range.",
-        "imageName": "sf90spider_image",
+        "imageName": "sf90spider",
         "carBrand":4
     },
     {
         "id": 22,
         "carName": "Roma",
         "carDescription": "The Roma is Ferrari's second V-8-powered front-engine coupe ever, following the now-discontinued GTC4Lusso T. It makes good use of a 612-hp twin-turbo V-8 and a rear-mounted eight-speed dual-clutch automatic transmission. Its powertrain screams all the way up to its 7500-rpm redline. From the driver's seat, the cabin is fitted with a nearly all-digital interface. While the Roma does have back seats, they're mostly there in spirit instead of actual use, but it does feel surprisingly spacious inside. This quarter-million-dollar Ferrari will use its hundreds of prancing horses to summon butterflies in your stomach.",
-        "imageName": "roma_image",
+        "imageName": "roma",
         "carBrand":4
     },
     {
         "id": 23,
         "carName": "Monza Sp1",
         "carDescription": "The Ferrari Monza SP1, together with the Monza SP2, are the forerunners in a new concept, known as ‘Icona’ (Icon), that taps into a leitmotif of the most evocative cars in the company’s history to create a new segment of special limited series cars for clients and collectors. The intention is to use a modern aesthetic to reinterpret a timeless style, with technologically advanced components and the highest performance possible through continuous innovation. A car that seems sculpted by the wind. It is the purity of the styling elements that impresses – an aesthetic that is futuristic but, at the same time, a respectful yet un-nostalgic homage to the past.",
-        "imageName": "monzasp1_image",
+        "imageName": "monzasp1",
         "carBrand": 4
     },
     {
         "id": 24,
         "carName": "Phantom",
         "carDescription": "No automobile shouts the presence of Old Money louder than the Rolls-Royce Phantom. Its massive size, stately proportions, and imperious upright grille—topped with the Spirit of Ecstasy hood ornament—make a statement that passersby can't look away from as they wonder who might be sipping champagne in the sumptuously padded rear seat. The Phantom hues to Rolls tradition—for now—by still being powered by a nearly silent gasoline V-12 under its long hood. A pillowy soft ride floats you gracefully across life's harsh bumps. Plush leathers, handsome veneers, and beautifully hewn metal trim surround you in the capacious interior; coach rear doors power themselves open and closed regally at the touch of a button. There are endless customization possibilities, but no matter the color or interior trim, the Phantom delivers on its reputation for extravagantly luxurious motoring.",
-        "imageName": "phantom_image",
+        "imageName": "phantom",
         "carBrand": 5
     },
     {
         "id": 25,
         "carName": "Spectre",
         "carDescription": "Rolls-Royce is taking its ultimate-luxury ethos to a new realm with the all-electric 2024 Spectre coupe. James Bond probably wouldn't toast the new model with one of his shaken-not-stirred signature martinis given his history of battling the international crime organization known as Spectre. But he might want to drive the regal new coupe nonetheless. The Spectre rides on the same platform as the Phantom sedan and Cullinan SUV but is propelled by a fully electric powertrain consisting of two electric motors that pump out a combined 577 horsepower. The driving range is estimated to be around 260 miles per charge, which does not place the Spectre among the long-range EV cohort with less-expensive rivals such as the Tesla Model S and the Lucid Motors Air. But buyers with the $450,000 or so available to buy a Spectre aren't likely to road trip when their private jet is always standing ready at a nearby airfield. The Spectre is Rolls-Royce's first in a series of EVs, and the company says that its gasoline-powered models will be phased out of the lineup and replaced entirely with EVs by 2030.",
-        "imageName": "spectre_image",
+        "imageName": "spectre",
         "carBrand": 5
     },
     {
         "id": 26,
         "carName": "Ghost",
         "carDescription": "Whether you come from old money or you’re nouveau riche, there’s no better way to flaunt it than in a Rolls-Royce Ghost. This is a car with presence, a car for the one tenth of one percent. And everyone knows it. The Ghost mimics the even more expensive Phantom sedan in both style and substance, offering an interior that’s whisper quiet and impeccably outfitted with the finest materials. It’s equipped with coach rear doors, just like the Phantom, that open like a pair of welcoming arms—a clear signal of upper-crust luxury. The ride is as smooth as polished aluminum, just like in other Rolls-Royces. But there’s also more athleticism tuned into the chassis than you might expect—especially on the Black Badge model, which comes with more power and sportier settings for the Ghost’s standard air suspension. Would you rather be chauffeured? No problem; riding in the Ghost’s rear compartment is a sybaritic experience as well.",
-        "imageName": "ghost_image",
+        "imageName": "ghost",
         "carBrand": 5
     },
     {
         "id": 27,
         "carName": "Cullinan",
         "carDescription": "No SUV embodies more tradition than the Rolls-Royce Cullinan. Under a hood topped with the Spirit of Ecstasy is a buttery-smooth twin-turbo V-12 with up to 592 horsepower that's moored to an eight-speed automatic transmission. All-wheel drive is standard, as is a cabin that's so softly padded and quiet, its silence at 70 miles per hour is indistinguishable from an isolation chamber. Coach doors open regally for entry into the rear seat, which is as comfortable as a thick leather couch. This is a vehicle that soothes the soul. For this, those few who can afford its mighty price tag are awarded the pleasure of being carried to their destination by one of the world's most extravagantly luxurious carriages.",
-        "imageName": "cullinan_image",
+        "imageName": "cullinan",
         "carBrand": 5
     },
     {
         "id": 28,
         "carName": "DBX",
         "carDescription": "For those who covet an Aston Martin and can afford a six-figure SUV, the 2024 DBX checks both boxes. While its larger footprint and extra mass mean it's not nearly as satisfying to drive as the British brand's sports cars, the DBX offers things none of them do, such as an inhabitable back seat and towing ability. It has considerably more cargo space than the DBS or Vantage too. Of course, the high-riding Aston still delivers high performance thanks to its rowdy twin-turbo V-8, which makes either 542 or 697 horsepower. The higher figure applies to the sport-tuned DBX 707, which races to 60 mph in an impressive 3.1 seconds. Still, there are quicker alternatives that cost less, and the ultra-lux SUV should have more modern safety tech than it does. At least its richly appointed cabin and countless customizable options help its desirability, and there aren't many other SUVs that are as handsome as the 2024 Aston Martin DBX.",
-        "imageName": "dbx_image",
+        "imageName": "dbx",
         "carBrand": 6
     },
     {
         "id": 29,
         "carName": "Vantage",
         "carDescription": "Few cars blend beauty and driver delight like the 2023 Aston Martin Vantage. In both coupe and convertible form, it casts a striking silhouette in its couture-inspired suit of impeccably pressed sheetmetal. Most models are powered by a twin-turbo V-8 making more than 500 horsepower, while a lucky few buyers will wind up with an even more powerful twin-turbo V-12. No matter the powertrain, the Vantage impresses with an athletic chassis, lively handling, and explosive acceleration—not to mention some of the most melodic exhaust notes available today. The interior is snug and can be customized with several high-end options, though we have one complaint: a relative lack of luxury for the Vantage's six-figure price tag. Still, with styling this sleek and moves this exciting, the Vantage is a highly desirable driver's car with an iconic heritage.",
-        "imageName": "vantage_image",
+        "imageName": "vantage",
         "carBrand": 6
     },
     {
         "id": 30,
         "carName": "DB12",
         "carDescription": "The DB12 is a truly significant car for Aston Martin. Not only does it represent a new era for the 110-year-old company, but it also proves that perseverance, serious commitment to the cause and a sizeable increase in budget can produce spectacular results. England now has a convincing answer to a Ferrari grand touring car, and on first inspection, Aston might well have surpassed this incredibly high standard. Aston Martin claims the DB12 is “the world’s first super-tourer”, whatever that might mean. Either way, the British brand also claims that 80 per cent of the DB12 is new, and that this 202mph, £185,000, 671bhp coupé represents a brand-new era for the company. It’s an era that’s being crafted by Aston’s boss, Lawrence Stroll, with a newly restructured team beneath him, and a fresh chunk of investment behind them that will (hopefully) allow Britain’s most famous sports car company to flourish once again, having been in the wilderness recently. So can Aston and its new DB12 deliver on the promise and self-confidence? The car looks the bees-knees in the flesh – and it also appears pretty tasty on paper. It is powered by a now-familiar AMG-sourced 4.0-litre twin-turbo V8 engine which has been tuned by Aston to develop 671bhp and a thumping 800Nm. The gearbox is an eight-speed paddle-shift auto by ZF, driving enormous 325-section rear Michelin tyres via an electronically adjustable differential.",
-        "imageName": "db12_image",
+        "imageName": "db12",
         "carBrand": 6
     },
     {
         "id": 31,
         "carName": "DBS",
         "carDescription": "American muscle cars pair a big engine with rear-wheel drive and punchy straight-line acceleration. The 2023 Aston Martin DBS follows the same formula, but in true British fashion, it's far more dignified, with a stately appearance and high-class cabin. It also costs a king's ransom. Wealthy aristocrats lucky enough to afford one of these beauties will find the 715-hp V-12 engine both refined and mega-powerful, but the DBS isn't a focused sports car. Similarly pricey machines, such as the McLaren GT and since-departed Ferrari 812 Superfast, are both more rewarding to drive, but the Aston is better than either of them at covering long distances with grace and repose.",
-        "imageName": "dbs_image",
+        "imageName": "dbs",
         "carBrand": 6
     },
     {
         "id": 32,
         "carName": "Valour",
         "carDescription": "Discretion is definitely not the better part of this Valour. Aston Martin's latest special is a limited edition to celebrate the British sports-car maker's 110th anniversary, and it draws plenty of inspiration from the brand's past. But while the Valour looks spectacular in these first official pictures, it definitely isn't subtle thanks to the combination of macho styling and V-12 performance. Another welcome retro detail: it has a manual gearbox. The Valour's spectacular styling is the work of a team led by Miles Nurnberger, Aston's director of design and the man who also created the very different CC100 which Aston created to celebrate its 100th anniversary. While the CC100 was a barely-there speedster, the Valour is a muscular coupe, one with a design that draws obvious influence from the square-rigged V8 Vantage that Aston produced between 1977 and 1989. It also bears a striking resemblance to the one-off Victor that Aston Martin's Q division created in 2020, which was based on the track-only One-77.",
-        "imageName": "valour_image",
+        "imageName": "valour",
         "carBrand": 6
     },
     {
         "id": 33,
         "carName": "Valhalla",
         "carDescription": "The 2024 Aston Martin Valhalla will be a mid-engine hypercar with a hybrid powertrain in the vein of the Ferrari SF90. The Aston's exterior boasts an exaggerated version of the company's grille along with slippery bodywork and a carbon-fiber engine cover. Carbon fiber also makes up its central tub, and the Valhalla's exotic nature will be further accentuated by its dihedral doors. Power comes from a twin-turbo V-8 (sourced from Mercedes-AMG) and a plug-in-hybrid system that together generates 937 horsepower. Aston estimates a top speed of 217 mph and a 2.5-second zero-to-62-mph time. The 2022 Valhalla will also have an EV mode, albeit with a very short all-electric range.",
-        "imageName": "valhalla_image",
+        "imageName": "valhalla",
         "carBrand": 6
     },
     {
         "id": 34,
         "carName": "Valkyrie",
         "carDescription": "Aston Martin is a British brand that's synonymous with opulence, but this automaker has never had a hypercar to call its own. That changes with the launch of the Valkyrie, an aerodynamic, performance-themed speed demon that holds the distinction of being Aston Martin's first entry in the hypercar war. Aston's vehicles are typically marked by their elegant, somewhat restrained design, but the Valkyrie blazes a fresh path with its over-the-top styling. This is the type of car that looks like it would be right at home on a future-world racetrack or in the next Transformers movie. The Valkyrie's hybrid V-12 powertrain produces a staggering 1139 horsepower, and our time piloting it at the Bahrain International Circuit left us thinking that this is a machine beyond mere numbers, however impressive the claimed 2.5-second zero-to-60-mph time and electronically limited 220-mph top speed sound. Pricing starts at about $3.5 million, and production is extremely limited.",
-        "imageName": "valkyrie_image",
+        "imageName": "valkyrie",
         "carBrand": 6
     },
     {
         "id": 35,
         "carName": "AMR23",
         "carDescription": "Aston Martin took a Union Jack wrap off of its new Formula 1 race car today. The AMR23 marks the third wholly Aston Martin-branded car to race F1 in the modern era. Finished in an eye-catching dark green, yellow and black livery, probably one of the best in F1, the car wears sponsorship from Aramco, the Saudi Arabian oil company, and Cognizant, an American IT company. The AMR23 can be visually distinguished from last year's car by its larger mirrors and updated 2023-spec roll structure. However, Technical Director Dan Fallows said at the reveal that around two-thirds of the car would continue to evolve as the season progressed. ",
-        "imageName": "amr23_image",
+        "imageName": "amr23",
         "carBrand": 6
     },
     {
         "id": 36,
         "carName": "F - Pace",
         "carDescription": "If the 2023 Jaguar F-Pace’s styling reminds you of the F-type sports car, that’s not a mistake, and neither are the SUV’s athletic road manners. Along with being practical, spacious, and upscale, Jaguar’s two-row mid-sizer will excite driving enthusiasts. A standard 246-hp turbo four-cylinder is fine and dandy, but the available 395-hp turbocharged and supercharged 3.0-liter inline-six is a fiery alternative. The 550-hp F-Pace SVR has the highest performance, but we review it separately. The trade-off for the regular F-Pace’s fun-to-drive demeanor is a firm ride that might not suit everyone. The cabin is appropriately posh, with quality materials throughout and modern tech smartly integrated into the design. A large touchscreen infotainment system sits above the dash and runs Jaguar’s latest software. Too bad it’s a work in progress and is plagued by some bugs. While those type of small issues make it a harder sell versus more polished rivals, the 2023 F-Pace’s driving verve is charming enough to outweigh those demerits.",
-        "imageName": "fpace_image",
+        "imageName": "fpace",
         "carBrand": 7
     },
     {
         "id": 37,
         "carName": "E - Pace",
         "carDescription": "The 2023 Jaguar E-Pace is the brand's most affordable offering, and it provides shoppers with a subcompact luxury SUV option that has distinct British curb appeal along with playful driving dynamics and a serene cabin. Those in the market for something that's extra roomy, extra zoomy, or extra efficient are looking in the wrong place, though; the E-Pace is one of the most expensive vehicles in its segment despite being less fuel-efficient and less spacious than most of its peers—which include the BMW X2 and Volvo XC40. Those who do opt for the E-Pace are limited to just one flavor, as the small SUV is now only offered in a one-size-fits-all model.",
-        "imageName": "epace_image",
+        "imageName": "epace",
         "carBrand": 7
     },
     {
         "id": 38,
         "carName": "I - Pace",
         "carDescription": "As the auto industry continues its gradual transition from internal combustion engines to battery packs, competition among EVs intensifies, and early entrants can start to fall behind. The 2023 Jaguar I-Pace, for instance, is now in its fifth model year, and there are fresher offerings that have greater range or quicker charge times or more performance. But the I-Pace is an automobile that speaks to the heart more so than the mind. Its enticing driving demeanor, distinct exterior design, and refined interior keep this Jag in the mix. Technological features—such as a Meridian sound system, 10-inch infotainment display, driver-assistance features, Apple CarPlay, and Android Auto—complete the package. While the Jag might not place very high in our 2023 rankings it’s still a very pleasant vehicle.",
-        "imageName": "ipace_image",
+        "imageName": "ipace",
         "carBrand": 7
     },
     {
@@ -276,42 +276,42 @@
         "id": 40,
         "carName": "XF",
         "carDescription": "Cats are solitary creatures, and true to form, Jaguar has only one gasoline-powered sedan in its lineup now amid the massive popularity of SUVs and a looming push toward electrification. The XF sticks around for another lap around the sun but is long overdue for a redesign to help it compete against newer sedans such as the Mercedes-Benz E-class, Genesis G80, and Audi A7. Meanwhile, the XF P250 comes standard with rear-wheel drive, an eight-speed automatic transmission, and a 246-hp turbocharged four-cylinder engine. The P300 version boosts output to 296 hp and is strictly an all-wheel-drive model. While the XF’s powertrain offerings are limited in size and power, its price makes it the most affordable entry in the mid-size-luxury-car segment. Its interior features handsome materials has plenty of tech, and the XF combines the plushness and ride of a big sedan with surefooted handling. Its maneuverability at reasonable speeds is downright catlike. Unfortunately, it’s not enough; this feline is clearly showing its age.",
-        "imageName": "xf_image",
+        "imageName": "xf",
         "carBrand": 7
     },
     {
         "id": 41,
         "carName": "Veyron",
         "carDescription": "Perhaps the greatest supercar ever, the Veyron 16.4 was for those with all the money in the world and a desire to go blisteringly fast; we say was because the Veyron is no longer sold and its replacement, the Chiron, is not yet available. With an 8.0-liter turbo-quad W-16 engine and all-wheel drive; the Veyron makes 1001 hp and has a 200-mph-plus top speed. For topless fun, see the Grand Sport with its targa top.",
-        "imageName": "veyron_image",
+        "imageName": "veyron",
         "carBrand": 8
     },
     {
         "id": 42,
         "carName": "La Voiture Noire",
         "carDescription": "Bugatti set off an avalanche of buzz when it revealed its La Voiture Noire at the 2019 Geneva Motor Show. Not long after, news outlets reported that the Noire had been purchased by an unnamed buyer for the highest new-car price ever — $18.7 million. So far, the identity of the buyer remains a mystery. We think that’s only fitting, as this rare souper-coupe has more in common with the Batmobile than luxury legends like the Rolls-Royce Phantom or the Bugatti Veyron Super Sport. Interest in the Bugatti La Voiture Noire was so intense following the concept reveal in early 2019 that Bugatti decided to make 20 “budget” Noire versions. Based on the Bugatti Chiron model, they’re priced at $3.3 million each. That’s about ⅙ the original Bugatti La Voiture Noire price. The new edition is available in Élégance or Sportive trims, and should arrive by mid 2020.",
-        "imageName": "lavoiturenoire_image",
+        "imageName": "lavoiturenoire",
         "carBrand": 8
     },
     {
         "id": 43,
         "carName": "Chiron",
         "carDescription": "The 2022 Chiron isn't only the ultimate Bugatti, it's the ultimate car. Period. This $3 million work of art is capable of pummeling the pavement at over 200 mph thanks to a 16-cylinder engine that features four turbochargers and cranks out at least 1500 horsepower—the more expensive Super Sport model is even more powerful. The Chiron's cabin is just as artfully designed as its exterior, and it coddles occupants in fine materials that help justify its price tag. But let's be honest, people are really paying for the performance here. Those looking for modern conveniences (think Apple CarPlay) or driver-assistance tech, they won't find them here, but after driving this monster, they likely won't care about such minor drawbacks.",
-        "imageName": "chiron_image",
+        "imageName": "chiron",
         "carBrand": 8
     },
     {
         "id": 44,
         "carName": "Divo",
         "carDescription": "A more exotic-looking and exclusive version of the Bugatti Chiron hypercar, the Divo is a study in aerodynamics. Its name pays homage to French racing driver Albert Divo, who won the prestigious Targa Florio endurance race twice in the 1920s behind the wheel of a Bugatti. True to form, the French automaker has put a cap on production: It will build only 40 examples of the Divo, all of which have been spoken for. Compared with the Chiron, the Divo's key enhancements include an upgraded suspension, additional weight savings, and all kinds of aerodynamic wizardry. While both Bugatti models look outrageous, it's not difficult to tell them apart: If it has a dorsal fin, a carved-up hood, and cheese-grater taillights under an enormous wing, you're looking at the Divo.",
-        "imageName": "divo_image",
+        "imageName": "divo",
         "carBrand": 8
     },
     {
         "id": 45,
         "carName": "EB 110",
         "carDescription": "Dramatic styling, scissor doors, and a whole lot of power – the grand unveiling of the Bugatti EB 110 on September 15, 1991, marked the beginning of a new era, the age of the super sports car. Some 2,000 guests were invited to the presentation in Paris, among them big names from the worlds of film, sport, and current affairs. One Bugatti EB 110s drove down the Champs Élysées on what was the 110th anniversary of Ettore Bugatti’s birth as a bow to one of the most brilliant design engineers in automotive history. With the EB 110, Bugatti combined a powerful V12 engine, four turbochargers with intercoolers, an ultra-lightweight carbon monocoque, all-wheel drive, and two differentials for the first time. The EB 110 was entirely in a league of its own.",
-        "imageName": "eb110_image",
+        "imageName": "eb110",
         "carBrand": 8
     }
 ]

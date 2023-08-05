@@ -1,5 +1,5 @@
 //
-//  BrandCard.swift
+//  CarCard.swift
 //  ContactList
 //
 //  Created by Vu Tran Hoang on 04/08/2023.
@@ -7,8 +7,8 @@
 
 import SwiftUI
 import CoreLocation
-struct BrandCard: View {
-    var brand: Brand
+struct CarCard: View {
+    var car: Car    
     
     var body: some View {
         ZStack {
@@ -17,13 +17,10 @@ struct BrandCard: View {
         ScrollView {
             
                 VStack {
-                    MapView(coordinate: brand.locationCoordinate)
-                        .edgesIgnoringSafeArea(.top)
-                        .frame(height: 250)
-                    CircleImage(image: brand.image)
+                    CircleImage(image: car.image)
                         .offset(y: -100)
                         .padding(.bottom, -100)
-                    Text(brand.brandName)
+                    Text(car.carName)
                         .font(.system(size: 40))
                         .bold()
                     .foregroundColor(.white)
@@ -35,8 +32,8 @@ struct BrandCard: View {
     }
 }
 
-struct BrandCard_Previews: PreviewProvider {
+struct CarCard_Previews: PreviewProvider {
     static var previews: some View {
-        BrandCard(brand:  brands[0])
+        CarCard(car:  cars[0])
     }
 }

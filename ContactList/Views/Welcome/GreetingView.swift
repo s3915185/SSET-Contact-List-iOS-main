@@ -24,22 +24,16 @@ struct GreetingView: View {
                 .animation(.linear(duration: 0.5))
 
             VStack(spacing: 20){
-                Toggle("", isOn: $isOn)
-                    .padding(.trailing, 70)
-                    .tint(.black)
 
                 Spacer()
                 VStack(spacing: 0) {
-                    Text("GERMANY")
+                    Text("LUXURY MODELS")
                       .font(.system(size: 60))
                       .fontWeight(.heavy)
                       .foregroundColor(self.isOn ? .black : .white)
                       .animation(.linear(duration: 0.5))
                     
-                    Text("""
-                    LUXURY MODELS
-                    CARS&BRANDS
-                    """)
+                    Text("CARS&BRANDS")
                       .font(.title3)
                       .fontWeight(.light)
                       .foregroundColor(self.isOn ? .black : .white)
@@ -57,7 +51,7 @@ struct GreetingView: View {
                 Spacer()
                 Button(action: {
                     active = false
-                    colorScheme = isOn ? true : false
+                    isOn = self.isOn ? true : false
                 }, label: {
                     Capsule()
                       .fill(self.isOn ? Color.black.opacity(0.2) : Color.white.opacity(0.2))
@@ -71,6 +65,7 @@ struct GreetingView: View {
                 })
             }
         }
+        .environment(\.colorScheme, isOn ? .light : .dark)
     }
 }
 
