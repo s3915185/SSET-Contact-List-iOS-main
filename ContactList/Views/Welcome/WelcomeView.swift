@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 16.0, *)
 struct WelcomeView: View {
     
     @State var isWelcomeActive: Bool = true
@@ -26,6 +27,7 @@ struct WelcomeView: View {
     }
 }
 
+@available(iOS 16.0, *)
 struct WelcomeView_Previews: PreviewProvider {
     static var previews: some View {
         WelcomeView(colorScheme: .constant(false), isOn: .constant(false))

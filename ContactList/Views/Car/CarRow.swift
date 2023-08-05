@@ -11,13 +11,16 @@ struct CarRow: View {
     var car: Car
     
     var body: some View {
-        HStack {
-            Text(car.carName)
-                .font(.custom("La macchina",size: 20))
+        VStack {
             car.back
                 .resizable()
-                .frame(width: 200, height: 200)
-                .opacity(0.2)
+                .scaledToFit()
+                .opacity(0.4)
+            Divider()
+            Spacer(minLength: 20)
+        }.overlay {
+            Text(car.carName)
+                .font(.custom("SouvenirGotURWTOTReg W03 Rg",size: 20))
         }
     }
 }

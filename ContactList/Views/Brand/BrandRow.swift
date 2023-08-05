@@ -12,12 +12,20 @@ struct BrandRow: View {
     @State private var isOn: Bool = false
     
     var body: some View {
-        HStack {
-            brand.image
-                .resizable()
-                .frame(width: 50, height: 50)
-            Text(brand.brandName)
-                .font(Font.custom(brand.font, size: 20))
+        ZStack {
+            VStack {
+                Spacer(minLength: 10)
+                HStack {
+//                    brand.image
+//                        .resizable()
+//                        .frame(width: 50, height: 50)
+                    Text(brand.brandName)
+                        .font(Font.custom(brand.font, size: 20))
+                }
+                Spacer(minLength: 200)
+                Divider()
+                Spacer(minLength: 10)
+            }.background(Image(brand.imageName).resizable().scaledToFit().opacity(0.3))
         }
     }
     
