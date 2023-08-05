@@ -3,6 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>UIAppFonts</key>
-	<array/>
+	<array>
+		<string>Fenix-Regular.ttf</string>
+		<string>Cocogoose Condensed trial.ttf</string>
+		<string>Jaguar-Bold.ttf</string>
+		<string>ModifiedbyKEMAL.ttf</string>
+		<string>SouvenirGotURWTOTReg W03 Rg.ttf</string>
+		<string>FerroRosso-0v5X.ttf</string>
+		<string>Porsche Regular.ttf</string>
+		<string>La Macchina Regular.ttf</string>
+		<string>Media-Gothic.ttf</string>
+	</array>
 </dict>
 </plist>
