@@ -79,7 +79,7 @@ struct BrandCard: View {
                         VStack {
                             MapView(coordinate: brand.locationCoordinate)
                                 .edgesIgnoringSafeArea(.top)
-                                .frame(height: 250)
+                                .frame(height: 350)
                                 .padding(.all)
                                 .cornerRadius(20)
                             
