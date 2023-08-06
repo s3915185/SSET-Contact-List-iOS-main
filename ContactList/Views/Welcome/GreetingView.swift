@@ -1,9 +1,16 @@
-//
-//  GreetingView.swift
-//  ContactList
-//
-//  Created by Tom Huynh on 7/26/22.
-//
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2023B
+  Assessment: Assignment 1
+  Author: Tran Hoang Vu
+  ID: S3915185
+  Created  date: 31/7/2023
+  Last modified: 8/8/2023
+  Acknowledgement:
+      1. Your code on GITHUB
+      2. WIKIPEDIA FOR INFORMATION OF EACH BRANDS AND CARS
+*/
 
 import SwiftUI
 
@@ -30,7 +37,9 @@ struct GreetingView: View {
     
     @State var animateThirdTitle:String = ""
     @State var indexValue3 = 0
-    @State var timeInterval3: TimeInterval = 0.01
+    @State var timeInterval3: TimeInterval = 0.001
+    
+    @State var isAnimating = false
     
     var body: some View {
         ZStack{
@@ -45,6 +54,7 @@ struct GreetingView: View {
                                     startAnimation()
                                 }
                                 .padding(.leading, 5)
+                                .shadow(color: Color.black.opacity(0.5) , radius: 3, x: 0, y: 10)
                             Spacer()
                         }
                         .animation(.spring())
@@ -60,6 +70,7 @@ struct GreetingView: View {
                                     startAnimation2()
                                 }
                                 .padding(.leading, 75)
+                                .shadow(color: Color.black.opacity(0.5) , radius: 3, x: 0, y: 10)
                             Spacer()
                         }.animation(.spring())
                         
@@ -76,6 +87,7 @@ struct GreetingView: View {
                                     startAnimation3()
                                 }
                                 .padding(.leading, 10)
+                                .shadow(color: Color.black.opacity(0.5) , radius: 3, x: 0, y: 10)
                             Spacer()
                         }.animation(.spring())
                         
@@ -87,6 +99,13 @@ struct GreetingView: View {
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 200)
                             .cornerRadius(15)
+                            .shadow(color: Color.black.opacity(0.5) , radius: 10, x: 0, y: 10)
+                            .scaleEffect(self.isAnimating ? 0.9 : 1)
+                            .animation(Animation.easeOut(duration: 15)
+                                .repeatForever())
+                            .onAppear {
+                                self.isAnimating = true
+                            }
                     }
                     Spacer()
                     HStack {
@@ -97,6 +116,7 @@ struct GreetingView: View {
                                 .fill(self.isOn ? Color.black.opacity(0.2) : Color.white.opacity(0.2))
                                 .padding(8)
                                 .frame(height:80)
+                                .shadow(color: Color.black.opacity(0.5) , radius: 3, x: 0, y: 10)
                                 .overlay(Text("Builder Info")
                                     .font(.system(.title3, design: .rounded))
                                     .fontWeight(.bold)
@@ -104,18 +124,27 @@ struct GreetingView: View {
                         })
                         Spacer()
                         Button(action: {
-                            active = false
-                            isOn = self.isOn ? true : false
+                            withAnimation(.easeIn(duration: 0.6)) {
+                                active = false
+                                isOn = self.isOn ? true : false
+                                
+                            }
                         }, label: {
                             Capsule()
                                 .fill(self.isOn ? Color.black.opacity(0.2) : Color.white.opacity(0.2))
                                 .padding(8)
                                 .frame(height:80)
+                                .shadow(color: Color.black.opacity(0.5) , radius: 3, x: 0, y: 10)
                                 .overlay(Text("Forward")
                                     .font(.system(.title3, design: .rounded))
                                     .fontWeight(.bold)
                                     .foregroundColor(self.isOn ? .black : .white))
-                        })
+                        }).scaleEffect(self.isAnimating ? 0.9 : 1)
+                            .animation(Animation.easeOut(duration: 2)
+                                .repeatForever())
+                            .onAppear {
+                                self.isAnimating = true
+                            }
                     }
                 }
         }

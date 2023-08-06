@@ -1,9 +1,16 @@
-//
-//  MapView.swift
-//  ContactList
-//
-//  Created by Tom Huynh on 7/13/22.
-//
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2023B
+  Assessment: Assignment 1
+  Author: Tran Hoang Vu
+  ID: S3915185
+  Created  date: 31/7/2023
+  Last modified: 8/8/2023
+  Acknowledgement:
+      1. Your code on GITHUB
+      2. WIKIPEDIA FOR INFORMATION OF EACH BRANDS AND CARS
+*/
 
 import SwiftUI
 import MapKit

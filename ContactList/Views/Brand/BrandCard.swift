@@ -1,10 +1,16 @@
-//
-//  BrandCard.swift
-//  ContactList
-//
-//  Created by Vu Tran Hoang on 04/08/2023.
-//
-
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2023B
+  Assessment: Assignment 1
+  Author: Tran Hoang Vu
+  ID: S3915185
+  Created  date: 31/7/2023
+  Last modified: 8/8/2023
+  Acknowledgement:
+      1. Your code on GITHUB
+      2. WIKIPEDIA FOR INFORMATION OF EACH BRANDS AND CARS
+*/
 import SwiftUI
 import CoreLocation
 import MapKit
@@ -19,6 +25,7 @@ struct BrandCard: View {
     @Binding var colorScheme: Bool
     @State private var searchText = ""
     @State private var sortDirection: SortDirection = .asc
+    @State private var toBrandInfo: Bool = false
     
     var sortDirectionText: String {
         sortDirection == .asc ? "Sort Descending" : "Sort Ascending"
@@ -47,12 +54,14 @@ struct BrandCard: View {
                                                 .font(.custom(brand.font, size: 40))
                                                 .bold()
                                                 .padding(.top)
+                                                .shadow(color: colorScheme ? .black : .white , radius: 5, x: 5, y: 5)
                                                 .foregroundColor(colorScheme ? .black : .white)
                                             Image(systemName: "info.circle.fill")
                                                 .resizable()
-                                                .frame(width: 10, height: 10)
+                                                .frame(width: 15, height: 15)
                                                 .padding(.top)
-                                                .foregroundColor(.cyan)
+                                                .shadow(color: colorScheme ? .black : .white , radius: 5, x: 5, y: 5)
+                                                .foregroundColor(colorScheme ? Color.green : Color.yellow)
                                         }
                                     }
                                     Spacer()
@@ -60,6 +69,7 @@ struct BrandCard: View {
                                 HStack {
                                     Spacer()
                                     Image(systemName: "phone.fill")
+                                        .foregroundColor(colorScheme ? Color.green : Color.yellow)
                                     Text(brand.brandEmail)
                                         .padding(.trailing)
                                 }
@@ -139,51 +149,86 @@ struct BrandCard: View {
                                         .listStyle(.inset)
                                 }
                                 .frame(minHeight: 1000)
-                                Spacer(minLength: 100)
-                                
-                                HStack {
-                                    Text("History")
-                                        .font(.custom(brand.font, size: 30))
-                                        .bold()
-                                        .padding(.leading)
-                                    Spacer()
-                                }
-                                
-                                
-                                HStack {
-                                    Text(brand.brandDescription2)
-                                        .font(.custom("SouvenirGotURWTOTReg W03 Rg", size: 20))
-                                        .padding(.leading)
-                                    Spacer()
-                                }
-                                Divider()
-                                
-                                HStack {
-                                    Text("Additional Information")
-                                        .font(.custom(brand.font, size: 30))
-                                        .bold()
-                                        .padding(.leading)
-                                    Spacer()
-                                }
-                                
-                                
-                                HStack {
-                                    Text(brand.brandDescription3)
-                                        .font(.custom("SouvenirGotURWTOTReg W03 Rg", size: 20))
-                                        .padding(.leading)
-                                    Spacer()
-                                }
+                                Spacer(minLength: 10)
                                 Divider()
                             }
                         }
                     }                }
             }
         }
+        .overlay {
+            VStack {
+                Spacer()
+                
+                HStack {
+                    Spacer()
+                    Button(action: {
+                        toBrandInfo.toggle()
+                        print("Clicked")
+                    }, label: {
+                        Image(systemName: "menucard.fill")
+                            .foregroundColor(colorScheme ? Color.green : Color.yellow)
+                            .shadow(color: colorScheme ? Color.green.opacity(0.5) : Color.yellow.opacity(0.5) , radius: 1, x: 0, y: 10)
+                    }).padding(.trailing, 30)
+                }
+            }
+        }
         .navigationBarTitleDisplayMode(.inline)
+        .sheet(isPresented: $toBrandInfo) {
+            BrandAdditionalInfoView(brand: brand, colorScheme: $colorScheme)
+        }
         .environment(\.colorScheme, colorScheme ? .light : .dark)
+        
         
     }
 }
+
+struct BrandAdditionalInfoView: View {
+    var brand: Brand
+    @Binding var colorScheme: Bool
+    var body: some View {
+        VStack {
+            ScrollView {
+                VStack {
+                    HStack {
+                        Text("History")
+                            .font(.custom(brand.font, size: 30))
+                            .bold()
+                            .padding(.leading)
+                        Spacer()
+                    }
+                    
+                    
+                    HStack {
+                        Text(brand.brandDescription2)
+                            .font(.custom("SouvenirGotURWTOTReg W03 Rg", size: 20))
+                            .padding(.leading)
+                        Spacer()
+                    }
+                    Divider()
+                    
+                    HStack {
+                        Text("Additional Information")
+                            .font(.custom(brand.font, size: 30))
+                            .bold()
+                            .padding(.leading)
+                        Spacer()
+                    }
+                    
+                    
+                    HStack {
+                        Text(brand.brandDescription3)
+                            .font(.custom("SouvenirGotURWTOTReg W03 Rg", size: 20))
+                            .padding(.leading)
+                        Spacer()
+                    }
+                }
+            }
+        Divider()
+        }
+    }
+}
+
 
 @available(iOS 16.0, *)
 struct BrandCard_Previews: PreviewProvider {
