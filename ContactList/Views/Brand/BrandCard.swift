@@ -18,10 +18,19 @@ struct BrandCard: View {
     var brand: Brand
     @Binding var colorScheme: Bool
     @State private var searchText = ""
+    @State private var sortDirection: SortDirection = .asc
+    
+    var sortDirectionText: String {
+        sortDirection == .asc ? "Sort Descending" : "Sort Ascending"
+    }
     
     var filteredCars : [Car] {
-        guard !searchText.isEmpty else { return cars}
+        guard !searchText.isEmpty else {
+            return cars.sorted(by: sortDirection == .asc ? {$0.carName < $1.carName} : {$0.carName > $1.carName})
+            
+        }
         return cars.filter{$0.carName.localizedCaseInsensitiveContains(searchText)}
+            .sorted(by: sortDirection == .asc ? {$0.carName < $1.carName} : {$0.carName > $1.carName})
     }
     
     var body: some View {
@@ -100,6 +109,9 @@ struct BrandCard: View {
                                 }
                                 
                                 NavigationStack {
+                                    Button(sortDirectionText) {
+                                        sortDirection = sortDirection ==  .asc ? .desc : .asc
+                                    }
                                     List(filteredCars, id: \.id) {
                                         car in
                                         Group {
