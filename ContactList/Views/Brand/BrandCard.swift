@@ -41,10 +41,20 @@ struct BrandCard: View {
                         VStack {
                             VStack {
                                 VStack {
-                                    Text(brand.brandName)
-                                        .font(.custom(brand.font, size: 40))
-                                        .bold()
-                                        .padding(.top)
+                                    Link(destination: URL(string: brand.brandLink)!) {
+                                        HStack{
+                                            Text(brand.brandName)
+                                                .font(.custom(brand.font, size: 40))
+                                                .bold()
+                                                .padding(.top)
+                                                .foregroundColor(colorScheme ? .black : .white)
+                                            Image(systemName: "info.circle.fill")
+                                                .resizable()
+                                                .frame(width: 10, height: 10)
+                                                .padding(.top)
+                                                .foregroundColor(.cyan)
+                                        }
+                                    }
                                     Spacer()
                                 }
                                 HStack {
@@ -57,7 +67,7 @@ struct BrandCard: View {
                                 brand.image
                                     .resizable()
                                     .scaledToFit()
-                                    .background(Color.white)
+                                    .background(Color.white.cornerRadius(10))
                                 Spacer()
                                 Divider()
                                 HStack {
@@ -122,7 +132,6 @@ struct BrandCard: View {
                                                     CarRow(car: car)
                                                 }
                                                 .cornerRadius(50)
-                                                .id(car.carName)
                                             }
                                         }
                                     }.searchable(text: $searchText)
@@ -131,6 +140,40 @@ struct BrandCard: View {
                                 }
                                 .frame(minHeight: 1000)
                                 Spacer(minLength: 100)
+                                
+                                HStack {
+                                    Text("History")
+                                        .font(.custom(brand.font, size: 30))
+                                        .bold()
+                                        .padding(.leading)
+                                    Spacer()
+                                }
+                                
+                                
+                                HStack {
+                                    Text(brand.brandDescription2)
+                                        .font(.custom("SouvenirGotURWTOTReg W03 Rg", size: 20))
+                                        .padding(.leading)
+                                    Spacer()
+                                }
+                                Divider()
+                                
+                                HStack {
+                                    Text("Additional Information")
+                                        .font(.custom(brand.font, size: 30))
+                                        .bold()
+                                        .padding(.leading)
+                                    Spacer()
+                                }
+                                
+                                
+                                HStack {
+                                    Text(brand.brandDescription3)
+                                        .font(.custom("SouvenirGotURWTOTReg W03 Rg", size: 20))
+                                        .padding(.leading)
+                                    Spacer()
+                                }
+                                Divider()
                             }
                         }
                     }                }

@@ -15,6 +15,9 @@ struct Brand: Identifiable, Codable{
     var brandName: String
     var brandEmail: String
     var brandDescription: String
+    var brandDescription2: String
+    var brandDescription3: String
+    var brandLink: String
     var imageName: String
     var font: String
     var image: Image {

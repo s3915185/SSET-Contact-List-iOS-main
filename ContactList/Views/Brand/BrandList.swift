@@ -17,6 +17,7 @@ enum SortDirection {
 struct BrandList: View {
     @State private var isOn: Bool = false
     @Binding var colorScheme: Bool
+    @State var inBrandList:Bool = true
     
     @State private var searchText = ""
     @State private var sortDirection: SortDirection = .asc
@@ -48,7 +49,7 @@ struct BrandList: View {
                                     BrandRow(brand: brand)
                                 }
                                 .listRowBackground(Color.clear)
-                                .navigationBarItems(leading: Text("CAR BRANDS").font(.custom("SouvenirGotURWTOTReg W03 Rg", size: 20)).foregroundColor(.red)
+                                .navigationBarItems(leading: Text("CAR BRANDS").font(.custom("SouvenirGotURWTOTReg W03 Rg", size: 20)).foregroundColor(isOn ? .black : .white)
                                     .toolbar {
                                         ToolbarItem(placement:
                                                 .navigationBarTrailing) {
@@ -67,6 +68,12 @@ struct BrandList: View {
                 }
                 
             }.environment(\.colorScheme, isOn ? .light : .dark)
+            .overlay {
+                Image(isOn && inBrandList ? "logo_black" : "logo_white")
+                    .resizable()
+                    .frame(width: 100, height: 100)
+                    .offset(x: -150, y: 370)
+            }
         }
     var searchResults: [Brand] {
             if searchText.isEmpty {

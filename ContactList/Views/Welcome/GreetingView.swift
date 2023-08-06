@@ -12,46 +12,86 @@ struct GreetingView: View {
     @Binding var colorScheme: Bool
     @State private var toInfo: Bool = false
     
-    @State private var isOn: Bool = false
+    @State private var isOn: Bool = true
+    
+    
+    @State var title:String  = "WHIPPERS"
+    @State var secondTitle:String = "CARS & BRANDS"
+    @State var thirdTitle:String = "An app to display famous luxury brands and their cars"
+    
+    
+    @State var animateTitle: String = ""
+    @State var indexValue = 0
+    @State var timeInterval: TimeInterval = 0.1
+    
+    @State var animateSecondTitle:String = ""
+    @State var indexValue2 = 0
+    @State var timeInterval2: TimeInterval = 0.1
+    
+    @State var animateThirdTitle:String = ""
+    @State var indexValue3 = 0
+    @State var timeInterval3: TimeInterval = 0.01
     
     var body: some View {
         ZStack{
-            if (!toInfo) {
-                Image(self.isOn ? "whitebg_image" : "blackbg_image")
-                    .resizable()
-                    .scaledToFill()
-                //                .ignoresSafeArea(.all, edges: .all)
-                    .padding([.top, .bottom], -60)
-                    .animation(.linear(duration: 0.5))
-                
                 VStack(spacing: 20){
                 
                     VStack(spacing: 0) {
-                        Text("LUXURY MODELS")
-                            .font(.system(size: 60))
-                            .fontWeight(.heavy)
-                            .foregroundColor(self.isOn ? .black : .white)
-                            .animation(.linear(duration: 0.5))
+                        Spacer()
+                        HStack {
+                            Text(animateTitle)
+                                .font(.custom("SouvenirGotURWTOTReg W03 Rg", size: 80))
+                                .onAppear {
+                                    startAnimation()
+                                }
+                                .padding(.leading, 5)
+                            Spacer()
+                        }
+                        .animation(.spring())
                         
-                        Text("CARS&BRANDS")
-                            .font(.title3)
-                            .fontWeight(.light)
-                            .foregroundColor(self.isOn ? .black : .white)
-                            .multilineTextAlignment(.center)
-                            .animation(.linear(duration: 0.5))
+                        
+                        HStack {
+
+                            Text(animateSecondTitle)
+                                .font(.custom("SouvenirGotURWTOTReg W03 Rg", size: 30))
+                                .foregroundColor(self.isOn ? .black : .white)
+                                .multilineTextAlignment(.center)
+                                .onAppear {
+                                    startAnimation2()
+                                }
+                                .padding(.leading, 75)
+                            Spacer()
+                        }.animation(.spring())
+                        
+//                        Text("WHIPPERS")
+//                            .font(.custom("SouvenirGotURWTOTReg W03 Rg", size: 80))
+//                            .foregroundColor(self.isOn ? .black : .white)
+//
+                        Spacer()
+                        HStack {
+                            Text(animateThirdTitle)
+                                .font(.custom("SouvenirGotURWTOTReg W03 Rg", size: 20))
+                                .padding(.horizontal, 70)
+                                .onAppear {
+                                    startAnimation3()
+                                }
+                                .padding(.leading, 10)
+                            Spacer()
+                        }.animation(.spring())
+                        
+                        Spacer()
                     }
-                    Spacer()
                     ZStack{
                         Image("logo")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
-                            .frame(width: 100)
+                            .frame(width: 200)
                             .cornerRadius(15)
                     }
                     Spacer()
                     HStack {
                         Button(action:  {
-                            toInfo = true
+                            toInfo.toggle()
                         }, label: {
                             Capsule()
                                 .fill(self.isOn ? Color.black.opacity(0.2) : Color.white.opacity(0.2))
@@ -61,7 +101,6 @@ struct GreetingView: View {
                                     .font(.system(.title3, design: .rounded))
                                     .fontWeight(.bold)
                                     .foregroundColor(self.isOn ? .black : .white))
-                                .animation(.linear(duration: 0.5))
                         })
                         Spacer()
                         Button(action: {
@@ -76,22 +115,100 @@ struct GreetingView: View {
                                     .font(.system(.title3, design: .rounded))
                                     .fontWeight(.bold)
                                     .foregroundColor(self.isOn ? .black : .white))
-                                .animation(.linear(duration: 0.5))
                         })
                     }
                 }
-            }
-            else {
-                InfoView(toInfo: $toInfo)
-            }
+        }
+        .padding()
+        .sheet(isPresented: $toInfo) {
+            InfoView()
         }
         .environment(\.colorScheme, isOn ? .light : .dark)
+        
+        
+    }
+    
+    func startAnimation() {
+        Timer.scheduledTimer(withTimeInterval: timeInterval, repeats: true) {
+            timer in
+            if (indexValue < title.count) {
+                animateTitle += String(title[title.index(title.startIndex, offsetBy: indexValue)])
+                indexValue += 1
+            } else {
+                timer.invalidate()
+            }
+        }
+    }
+    
+    func startAnimation2() {
+        Timer.scheduledTimer(withTimeInterval: timeInterval2, repeats: true) {
+            timer in
+            if (indexValue2 < secondTitle.count) {
+                animateSecondTitle += String(secondTitle[secondTitle.index(secondTitle.startIndex, offsetBy: indexValue2)])
+                indexValue2 += 1
+            } else {
+                timer.invalidate()
+            }
+        }
+    }
+    
+    func startAnimation3() {
+        Timer.scheduledTimer(withTimeInterval: timeInterval2, repeats: true) {
+            timer in
+            if (indexValue3 < thirdTitle.count) {
+                animateThirdTitle += String(thirdTitle[thirdTitle.index(thirdTitle.startIndex, offsetBy: indexValue3)])
+                indexValue3 += 1
+            } else {
+                timer.invalidate()
+            }
+        }
+    }
+}
+
+struct InfoView: View {
+    var body: some View {
+        VStack {
+            Spacer()
+            HStack{
+                Image("builder_image")
+                    .resizable()
+                    .scaledToFit()
+                    .blendMode(.normal)
+            }
+            HStack {
+                Image(systemName: "arrow.down")
+                    .opacity(1)
+                    .padding()
+            }
+            Spacer()
+            HStack {
+                Image(systemName: "pencil")
+                    .padding()
+                Spacer()
+                Text("Tran Hoang Vu")
+                    .padding()
+            }
+            HStack {
+                Image(systemName: "info.circle")
+                    .padding()
+                Spacer()
+                Text("S3915185")
+                    .padding()
+            }
+            HStack {
+                Image(systemName: "lanyardcard")
+                    .padding()
+                Spacer()
+                Text("Software Engineeering")
+                    .padding()
+            }
+            Spacer(minLength: 100)
+        }
     }
 }
 
 struct GreetingView_Previews: PreviewProvider {
     static var previews: some View {
         GreetingView(active: .constant(true), colorScheme: .constant(false))
-            .animation(.linear(duration: 0.5))
     }
 }

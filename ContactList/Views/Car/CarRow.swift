@@ -15,7 +15,7 @@ struct CarRow: View {
             car.back
                 .resizable()
                 .scaledToFit()
-                .opacity(0.4)
+                .opacity(0.6)
             Divider()
             Spacer(minLength: 20)
         }.overlay {

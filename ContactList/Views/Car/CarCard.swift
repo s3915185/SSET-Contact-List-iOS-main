@@ -15,14 +15,17 @@ struct CarCard: View {
         ZStack {
         ScrollView {
             HStack {
-                Image("\(car.imageName)_logo")
-                    .resizable()
-                    .scaledToFit()
-            }.background(Color.white)
-            HStack {
-                Text("\(car.carName)")
-                    .font(.custom("SouvenirGotURWTOTReg W03 Rg", size: 40))
-                    .bold()
+                if let image = UIImage(named: "\(car.imageName)_logo"){
+                    Image (uiImage: image)
+                        .resizable()
+                        .scaledToFit()
+                        .background(Color.white)
+                }
+                else {
+                    Text("\(car.carName)")
+                        .font(.custom("SouvenirGotURWTOTReg W03 Rg", size: 40))
+                        .bold()
+                }
             }
             HStack {
                 Image(car.imageName+"_image")
