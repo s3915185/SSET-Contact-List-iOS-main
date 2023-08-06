@@ -26,96 +26,102 @@ struct BrandCard: View {
     
     var body: some View {
         ZStack {
-            NavigationView {
-                ScrollView {
-                    VStack {
+            NavigationStack {
+                ScrollViewReader { scrollProxy in
+                    ScrollView {
                         VStack {
                             VStack {
-                                Text(brand.brandName)
-                                    .font(.custom(brand.font, size: 40))
-                                    .bold()
-                                    .padding(.top)
+                                VStack {
+                                    Text(brand.brandName)
+                                        .font(.custom(brand.font, size: 40))
+                                        .bold()
+                                        .padding(.top)
+                                    Spacer()
+                                }
+                                HStack {
+                                    Spacer()
+                                    Image(systemName: "phone.fill")
+                                    Text(brand.brandEmail)
+                                        .padding(.trailing)
+                                }
                                 Spacer()
-                            }
-                            HStack {
-                                Spacer()
-                                Image(systemName: "phone.fill")
-                                Text(brand.brandEmail)
-                                    .padding(.trailing)
-                            }
-                            Spacer()
                                 brand.image
                                     .resizable()
                                     .scaledToFit()
+                                    .background(Color.white)
+                                Spacer()
+                                Divider()
+                                HStack {
+                                    Text("Overview")
+                                        .font(.custom(brand.font, size: 30))
+                                        .bold()
+                                        .padding(.leading)
+                                    Spacer()
+                                }
+                                
+                                
+                                HStack {
+                                    Text(brand.brandDescription)
+                                        .font(.custom("SouvenirGotURWTOTReg W03 Rg", size: 20))
+                                        .padding(.leading)
+                                    Spacer()
+                                }
+                                Divider()
+                                
+                                HStack {
+                                    Text("Location")
+                                        .font(.custom(brand.font, size: 30))
+                                        .bold()
+                                        .padding(.leading)
+                                    Spacer()
+                                }
+                            }
+                            
                             Spacer()
-                            Divider()
-                            HStack {
-                                Text("Overview")
-                                    .font(.custom(brand.font, size: 30))
-                                    .bold()
-                                    .padding(.leading)
-                                Spacer()
-                            }
-                            
-
-                            HStack {
-                                Text(brand.brandDescription)
-                                    .font(.custom("SouvenirGotURWTOTReg W03 Rg", size: 20))
-                                    .padding(.leading)
-                                Spacer()
+                            ScrollView {
+                                VStack {
+                                    MapView(coordinate: brand.locationCoordinate)
+                                        .edgesIgnoringSafeArea(.top)
+                                        .frame(height: 500)
+                                        .padding(.all)
+                                        .cornerRadius(20)
+                                    
+                                }
                             }
                             Divider()
+                            Spacer(minLength: 50)
                             
-                            HStack {
-                                Text("Location")
-                                    .font(.custom(brand.font, size: 30))
-                                    .bold()
-                                    .padding(.leading)
-                                Spacer()
-                            }
-                        }
-                        
-                        Spacer()
-                        VStack {
-                            MapView(coordinate: brand.locationCoordinate)
-                                .edgesIgnoringSafeArea(.top)
-                                .frame(height: 350)
-                                .padding(.all)
-                                .cornerRadius(20)
-                            
-                        }
-                        Divider()
-                        Spacer(minLength: 50)
-                        
-                        VStack {
-                            HStack {
-                                Text("CATALOG")
-                                    .font(.custom(brand.font, size: 20))
-                                    .padding(.leading)
-                                Spacer()
-                            }
-                            
-                            NavigationStack {
-                                List(filteredCars, id: \.id) {
-                                    car in
-                                    Group {
-                                        if (brand.id == car.carBrand) {
-                                            NavigationLink {
-                                                CarCard(car: car, colorScheme: $colorScheme)
-                                            } label: {
-                                                CarRow(car: car)
+                            VStack {
+                                HStack {
+                                    Text("CATALOG")
+                                        .font(.custom(brand.font, size: 20))
+                                        .padding(.leading)
+                                    Spacer()
+                                }
+                                
+                                NavigationStack {
+                                    List(filteredCars, id: \.id) {
+                                        car in
+                                        Group {
+                                            if (brand.id == car.carBrand) {
+                                                NavigationLink {
+                                                    CarCard(car: car, colorScheme: $colorScheme)
+                                                } label: {
+                                                    CarRow(car: car)
+                                                }
+                                                .cornerRadius(50)
+                                                .id(car.carName)
                                             }
-                                            .cornerRadius(50)
                                         }
-                                    }
-                                }.searchable(text: $searchText)
-                                    .navigationTitle("Models")
+                                    }.searchable(text: $searchText)
+                                        .navigationTitle("Models")
+                                        .listStyle(.inset)
+                                }
+                                .frame(minHeight: 1000)
+                                Spacer(minLength: 100)
                             }
-                            .frame(minHeight: 1000)
-                            Spacer(minLength: 100)
                         }
-                    }
-                }
+                    }                }
             }
         }
         .navigationBarTitleDisplayMode(.inline)

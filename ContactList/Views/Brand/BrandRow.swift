@@ -25,7 +25,7 @@ struct BrandRow: View {
                 Spacer(minLength: 200)
                 Divider()
                 Spacer(minLength: 10)
-            }.background(Image(brand.imageName).resizable().scaledToFit().opacity(0.3))
+            }.background(Image(brand.imageName).resizable().scaledToFit().opacity(0.5))
         }
     }
     
